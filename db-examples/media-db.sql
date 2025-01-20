@@ -1,7 +1,9 @@
+-- source c:/Users/ellir/Hybridisovellukset/hybrid-servers-2025/db-examples/media-db.sql;-
+
 -- Drop the database if it exists and then create it
-DROP DATABASE IF EXISTS MediaSharingAppTest;
-CREATE DATABASE MediaSharingAppTest;
-USE MediaSharingAppTest;
+DROP DATABASE IF EXISTS MediaSharingApp;
+CREATE DATABASE MediaSharingApp;
+USE MediaSharingApp;
 
 -- Create the tables
 

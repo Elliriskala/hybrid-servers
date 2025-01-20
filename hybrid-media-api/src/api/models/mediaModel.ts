@@ -175,6 +175,8 @@ const deleteMedia = async (
     },
   };
 
+  // TODO: rollback if delete fails
+
   try {
     const deleteResult = await fetchData<MessageResponse>(
       `${process.env.UPLOAD_SERVER}/delete/${media.filename}`,

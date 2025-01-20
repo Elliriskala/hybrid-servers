@@ -75,3 +75,7 @@ typings/
 dist
 uploads
 public
+
+.history
+
+node_modules
